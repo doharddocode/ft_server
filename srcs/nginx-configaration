@@ -13,6 +13,7 @@ server {
 
     root /var/www/oryndoon;
     index index.php index.html;
+    autoindex on;
 
     server_name oryndoon;
 
