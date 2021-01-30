@@ -1,6 +1,6 @@
 FROM debian:buster
 
-RUN apt-get update && apt-get install -y nginx php-fpm php-mysql wget
+RUN apt-get update && apt-get install -y nginx php-fpm php-mysql wget vim
 RUN apt-get install -y mariadb-server
 RUN apt-get install -y php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlrpc php-zip
 
